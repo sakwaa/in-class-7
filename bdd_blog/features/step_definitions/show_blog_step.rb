@@ -1,5 +1,4 @@
-Given /^4 posts exist$/ do |posts|
-posts.length == 4
+Given /^4 posts exist$/ do 
 end
 And /^I am on the homepage$/ do
 visit("/posts")
